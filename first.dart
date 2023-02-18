@@ -5,9 +5,10 @@ void main() {
   int b = 10;
   if (a == b) {
     print("a and b is equal");
-  } else if (a < b) {
-    print("a is less then B");
   } else {
-    print("a is greater then B");
+    if (a < b)
+      print("a less then b");
+    else
+      print("a greater then b");
   }
 }
